@@ -7,7 +7,7 @@ RSpec.feature "Showing an article" do
   end 
   
   scenario "A user shows an article" do 
-    vist "/"
+    visit "/"
     click_link @article.title 
     
     expect(page).to have_content(@article.title)
