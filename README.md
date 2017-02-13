@@ -1,6 +1,5 @@
-Listing articles feature test
+Restrict Access -
 
-- create branch
-- create 2 articles to display 
-- list the two articles 
-- expect both article titles and bodies to be present 
+Hide the "New Article" button from non-signed in users
+Hide the "Edit" and "Delete" buttons from non-owners of the article
+Permit the owners to edit or delete their own articles
